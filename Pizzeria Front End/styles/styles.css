@@ -1,0 +1,23 @@
+*{
+    
+}
+
+#PersonalDetails{
+    width : 70%;
+    margin: 5% auto;
+    
+}
+div{
+    margin: 5px;
+}
+
+label{
+    font-family:sans-serif;
+}
+input{
+    text-align: center;
+}
+
+#OrderDetails{
+    width : 70%;
+}
