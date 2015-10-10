@@ -2,11 +2,20 @@
     
 }
 
-#PersonalDetails{
-    width : 70%;
+form{
+    width: 70%;
     margin: 5% auto;
-    
+    height: 80%;
+    min-height: 500px;
 }
+
+#PersonalDetails{
+    width : 50%;
+    min-width: 200px;
+    min-height: 400px;
+    float: left;
+}
+
 div{
     margin: 5px;
 }
@@ -16,8 +25,17 @@ label{
 }
 input{
     text-align: center;
+    padding: 1px
 }
 
 #OrderDetails{
-    width : 70%;
+    width : 50%;
+    min-width: 200px;
+    min-height: 400px;
+    float:left;
+/*    padding: 1px;*/
+}
+button{
+    clear: both;
+    margin: 0 50%;
 }
